@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.external-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.self-photo {
+  height: 400px;
+  border-radius: 10px;
+}
+
+.header-info-area {
+  padding: 50px 0;
+}
+
+.top-subtitle {
+  font-size: 1.5rem;
+}
+
+.summary {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.mail-link {
+  display: flex;
+}
+
+.link-tip,
+.link-tip:visited {
+  padding: 10px 25px;
+  text-decoration: none;
+  background-color: rgb(240, 240, 240);
+  color: #333;
+  border-radius: 30px;
+}
+
+.img-icon {
+  height: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  background-color: rgb(240, 240, 240);
+  color: #333;
+  border-radius: 20px;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  padding: 5px 0;
+  border-bottom: 5px solid #333;
+  text-transform: uppercase;
+}
+
+.header-2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.sub-subtitle {
+  font-weight: lighter;
+  font-size: 0.8rem;
+  text-transform: initial;
+}
+
+.skill-subsection img {
+  height: 75px;
+}
