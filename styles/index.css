@@ -101,3 +101,7 @@ h6 {
 .skill-subsection img {
   height: 75px;
 }
+
+.skill-subsection {
+  text-align: center;
+}
