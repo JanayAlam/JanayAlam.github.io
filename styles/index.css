@@ -54,6 +54,9 @@ h6 {
   background-color: rgb(240, 240, 240);
   color: #333;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .img-icon {
@@ -67,9 +70,9 @@ h6 {
 
 .social-link {
   color: #333;
-  padding: 5px 15px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -77,13 +80,25 @@ h6 {
   border-radius: 5px;
 }
 
+.social-link:hover {
+  color: #333;
+  background-color: #e6e6e6;
+}
+
 .header-1 {
   font-size: 1.8rem;
   font-weight: 800;
   margin-bottom: 15px;
   padding: 5px 0;
-  border-bottom: 5px solid #333;
   text-transform: uppercase;
+  color: #0d6dfd;
+}
+
+.header-2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px 0;
+  padding: 5px 0;
 }
 
 .timeline-area {
@@ -135,4 +150,8 @@ h6 {
 
 .timeline-divider {
   margin: 5px 0;
+}
+
+.skills-icon {
+  font-size: 2rem;
 }
