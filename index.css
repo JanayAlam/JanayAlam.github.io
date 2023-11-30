@@ -128,6 +128,10 @@ h6 {
   background-color: #0d6dfd;
 }
 
+.timeline-area > .card {
+  padding: 20px 30px !important;
+}
+
 .timeline-header {
   font-size: 1.5rem;
   font-weight: 700;
@@ -154,4 +158,8 @@ h6 {
 
 .skills-icon {
   font-size: 2rem;
+}
+
+.text-justify {
+  text-align: justify;
 }
